@@ -7,7 +7,9 @@
   "license": "MIT",
   "scripts": {
     "clean:dist": "rm -rf ./dist",
-    "build": "yarn clean && NODE_ENV=production `yarn bin`/babel ./src --out-dir ./dist"
+    "build": "yarn clean && NODE_ENV=production `yarn bin`/babel ./src --out-dir ./dist",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -23,7 +25,8 @@
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "styled-jsx": "^1.0.10"
+    "styled-jsx": "^1.0.10",
+    "@storybook/react": "^3.2.3"
   },
   "peerDependencies": {
     "prop-types": "^15.5.10",
