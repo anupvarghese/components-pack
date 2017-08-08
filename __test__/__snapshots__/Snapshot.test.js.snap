@@ -2,8 +2,7 @@
 
 exports[`Storyshots Button with some emoji 1`] = `
 <button
-  className="Button"
-  data-jsx={284995412}
+  className="css-mtywj3"
   onClick={[Function]}
 >
   😀 😎 👍 💯
@@ -12,10 +11,17 @@ exports[`Storyshots Button with some emoji 1`] = `
 
 exports[`Storyshots Button with text 1`] = `
 <button
-  className="Button"
-  data-jsx={284995412}
+  className="css-mtywj3"
   onClick={[Function]}
 >
   Hello Button
 </button>
+`;
+
+exports[`Storyshots Input with event handlers 1`] = `
+<input
+  className="css-1ee9933"
+  onBlur={[Function]}
+  onChange={[Function]}
+/>
 `;
