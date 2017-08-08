@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button with some emoji 1`] = `
+<button
+  className="Button"
+  data-jsx={284995412}
+  onClick={[Function]}
+>
+  😀 😎 👍 💯
+</button>
+`;
+
+exports[`Storyshots Button with text 1`] = `
+<button
+  className="Button"
+  data-jsx={284995412}
+  onClick={[Function]}
+>
+  Hello Button
+</button>
+`;
